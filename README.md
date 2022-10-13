@@ -1,2 +1,2 @@
 # ai_course
-AI course for beginners / intermediate in DS
+AI course created by me for beginners / intermediate in DS
