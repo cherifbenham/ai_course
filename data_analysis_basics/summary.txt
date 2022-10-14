@@ -1,0 +1,12 @@
+numpy: high performance package for data manipulation
+key concept is ndarray which is a multidimensional array of fixed size, fixed type
+many operations can be performed with high perf such as sum, prod, slicing etc.
+axis=0 means along the rows, axis=1 means along the columns and axis=2 means along the depth for 3 dims for eg
+numpy is 2 magnitudes faster than python
+this test can be proved if we look at computation time of np.sum(A) vs classic loop sum time
+boolean masking: A[A>5]=99 replaces all values that meet the condition by 99
+limits of numpy: lack of support for columns, some methods missing
+
+pandas builds on top of it to solve these issues and introduces methods on type: dataframe
+pandas is an open source library that offers ready to use data structures and data tools for high performance operations on data
+
