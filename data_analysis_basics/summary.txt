@@ -10,3 +10,7 @@ limits of numpy: lack of support for columns, some methods missing
 pandas builds on top of it to solve these issues and introduces methods on type: dataframe
 pandas is an open source library that offers ready to use data structures and data tools for high performance operations on data
 
+import pandas as pd
+pd.Series(data=[[1,2,"t1"],[3,4,"t2"],[5,6,"t3"]],index=["id1","id2","id3"] columns=["col1","col2", "col3"])
+
+possibility of adding labels to columns and rows in dfs
